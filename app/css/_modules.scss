@@ -1,0 +1,46 @@
+/*********************************/
+/********** Typography ***********/
+/*********************************/
+
+
+
+
+/*********************************/
+/*********** Buttons *************/
+/*********************************/
+
+
+
+
+
+/*********************************/
+/******** Class Helpers **********/
+/*********************************/
+.icon {
+	display: inline-block;
+}
+
+
+
+
+/*********************************/
+/*********** Modules *************/
+/*********************************/
+
+.text {
+	position: absolute; left: 0; top: 0;z-index: -1;
+	background: #ffffff;
+	p {
+		color: #ffffff; font-size: 60px;  line-height: 66px; font-family: Helvetica, sans-serif;
+		position: absolute; left: 0; top: 300px; width: 100%; padding: 30px;
+	}
+	span {
+		font-style: italic;
+	}
+}
+
+input {
+	&.error {
+		border-color: red;
+	}
+}
